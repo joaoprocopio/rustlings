@@ -1,16 +1,5 @@
 // Booleans (`bool`)
 
-struct ToTestando {
-    teste_1: i32,
-    teste_2: i32,
-}
-
-impl ToTestando {
-    fn new(teste_1: i32, teste_2: i32) -> Self {
-        Self { teste_1, teste_2 }
-    }
-}
-
 fn main() {
     let is_morning = true;
     if is_morning {
